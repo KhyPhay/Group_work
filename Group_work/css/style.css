@@ -15,10 +15,15 @@
 }
 .img img{
     width: 95%;
-=======
+}
+
+/* footer */
 .card{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 10px;
->>>>>>> 72540f628ca3dbcd2f6f9d74ddd4b5890be7cd83
+    gap: 5px;
+}
+.card-box img{
+    width: 100px;
+    color: purple;
 }
