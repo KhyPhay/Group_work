@@ -38,8 +38,22 @@ body{
 .img img{
     width: 95%;
 }
+<<<<<<< HEAD
 .card{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 10px;
 }
+=======
+
+/* footer */
+.card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5px;
+}
+.card-box img{
+    width: 100px;
+    color: purple;
+}
+>>>>>>> 186fdfc16c3165f25a8c80708ca66e0a1bb3af6e
