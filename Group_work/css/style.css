@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+ /* HEAD */
 /* body */
 .container{
     display: flex;
@@ -23,7 +23,16 @@
     grid-template-columns: repeat(4,1fr);
     gap: 5px;
 }
+.card-box{
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .card-box img{
     width: 100px;
+   
+}
+.image{
     color: purple;
 }
