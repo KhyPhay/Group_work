@@ -1,3 +1,4 @@
+ /* HEAD */
 body{
     margin: 0;
     padding: 0;
@@ -31,6 +32,9 @@ body{
 
     
 }
+.btn button:hover{
+    background: rgb(63, 127, 201);
+}
 
 .img{
     width: 23%;
@@ -50,7 +54,23 @@ body{
     grid-template-columns: repeat(4,1fr);
     gap: 5px;
 }
+.card-box{
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .card-box img{
     width: 100px;
+   
+}
+<<<<<<< HEAD
+.image{
     color: purple;
 }
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 186fdfc16c3165f25a8c80708ca66e0a1bb3af6e
+>>>>>>> 1f2d9f419b185bde8cb8c467c622aeec800c8e9f
+>>>>>>> f2ba67ff35f7ff317a81382325cd282697df7dcd
