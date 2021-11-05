@@ -1,13 +1,39 @@
+<<<<<<< HEAD
  /* HEAD */
+=======
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+>>>>>>> 1f2d9f419b185bde8cb8c467c622aeec800c8e9f
 /* body */
 .container{
     display: flex;
 }
 .text{
     width: 75%;
+    margin-left: 30px;
 }
 .text p{
-    font-size: 1.8rem;
+    font-size: 1.1rem;
+}
+.text h1{
+    font-size: 2.5rem;
+    
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn button{
+    background: rgb(201, 6, 201);
+    border: none;
+    padding: 10px 90px;
+    border-radius: 5px;
+
+    
 }
 
 .img{
@@ -16,6 +42,13 @@
 .img img{
     width: 95%;
 }
+<<<<<<< HEAD
+.card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+=======
 
 /* footer */
 .card{
@@ -33,6 +66,10 @@
     width: 100px;
    
 }
+<<<<<<< HEAD
 .image{
     color: purple;
 }
+=======
+>>>>>>> 186fdfc16c3165f25a8c80708ca66e0a1bb3af6e
+>>>>>>> 1f2d9f419b185bde8cb8c467c622aeec800c8e9f
