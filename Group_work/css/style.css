@@ -84,9 +84,7 @@ footer{
 }
 footer li{
     padding: 10px;
-    margin-left: 45%;
-    text-align: left;
-    text-align-last: left;
+    text-align: center  ;
     color: #fff;
     list-style: none;
 }
