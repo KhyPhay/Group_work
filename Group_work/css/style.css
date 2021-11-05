@@ -1,0 +1,17 @@
+/* body */
+.container{
+    display: flex;
+}
+.text{
+    width: 75%;
+}
+.text p{
+    font-size: 1.8rem;
+}
+
+.img{
+    width: 25%;
+}
+.img img{
+    width: 95%;
+}
