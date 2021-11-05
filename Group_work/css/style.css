@@ -4,6 +4,41 @@ body{
     padding: 0;
     font-family: sans-serif;
 }
+.menu-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 25px;
+}
+.menu-right > ul{
+    display: flex;
+    justify-content: space-between;
+}
+.menu-right > ul > li{
+    list-style: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.menu-right > ul > li:hover{
+    background-color: purple;
+}
+.menu-right > ul > li:hover a{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.active a{
+    color: white;
+}
+.active{
+    cursor: pointer;
+    background-color: purple;
+}
 /* body */
 .container{
     display: flex;
