@@ -33,18 +33,16 @@ body{
 }
 
 .img{
-    width: 25%;
+    width: 23%;
 }
 .img img{
     width: 95%;
 }
-<<<<<<< HEAD
 .card{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 10px;
 }
-=======
 
 /* footer */
 .card{
@@ -56,4 +54,3 @@ body{
     width: 100px;
     color: purple;
 }
->>>>>>> 186fdfc16c3165f25a8c80708ca66e0a1bb3af6e
